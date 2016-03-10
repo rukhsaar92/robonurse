@@ -1,0 +1,80 @@
+.jumbotron { 
+  /*height:100%;
+  width: 100%;
+  padding-top: 90px;
+  min-height: 300px;*/
+  margin-bottom: 0;
+  background-image: url('images/heart1.jpg'); 
+  /*background-size: contain;*/
+  background-size: 100% 100%;
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+  /*padding-bottom: 10px;*/
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.jumbotron h1 {
+  font-family: 'Vast Shadow', cursive;
+  color:#054770 ;
+  margin-bottom: 1em;
+}
+.jumbotron p {
+  text-indent: 50px;
+  /*font-family: 'Vast Shadow', cursive;*/
+  color:black ;
+  margin-bottom: 1em;
+/*-webkit-box-shadow: 10px 10px 5px 0px #332e1f;
+-moz-box-shadow: 10px 10px 5px 0px #332e1f;
+box-shadow: 10px 10px 5px 0px #332e1f;*/
+}
+
+#mission {
+  background-color: rgba(32, 35, 41, 0.9);
+  color: #ddd;
+  padding-bottom: 40px;
+}
+.jumbotron .form-group {
+  line-height: 1em;
+}
+
+.jumbotron label {
+  color: white;
+}
+.jumbotron img {
+  margin-top: 50px;
+}
+h2 {
+  margin-bottom: 1.5em;
+}
+
+.navbar-inverse {
+  background-color: rgba(32, 35, 41,0.8);
+}
+
+.form-inline input[name='email'] {
+  width: 80%;
+}
+#social-buttons {
+  margin-top: 50px;
+}
+
+.btn-twitter {
+  background-color: #00acee;
+  border-color: #009ad5;
+  color: white;
+}
+
+.btn-facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+  color: white;
+}
+
+.btn-pinterest {
+  background-color: #b62f26;
+  border-color: #b62f26;
+  color: white;
+}

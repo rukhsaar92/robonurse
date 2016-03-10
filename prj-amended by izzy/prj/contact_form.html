@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Chest pain</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='http://fonts.googleapis.com/css?family=Vast+Shadow' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="dist/css/bootstrap.css">
+  <link rel="stylesheet" href="contact_form.css">
+</head>
+
+<body>
+ <!--  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Robot</a>
+      </div>
+
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="http://halls.md/ideal-weight/body.htm">BMI</a></li>
+            <li><a href="#contact_form">Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+  <div class="navbar-wrapper">
+    <div class="container">
+      <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Nurse Robo: Welcome Humans!!!</a>
+          </div>
+
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="abtus.html">About us</a></li>
+                <li><a href="http://halls.md/ideal-weight/body.htm">BMI</a></li>
+                <li><a href="contact_form.html">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+<div class='jumbotron'>
+<form id="form" action="/process.php" method="post">
+    <h2>Get in touch</h2>
+    <p>Use the form to contact us, or give us a call on 0100 0200 0300</p>
+    <!--fields-->
+
+ <div>
+    <label for='name'>Name <span class='required'>*</span></label>
+    <input type='text' name='name' placeholder='your name here' required />
+ </div>
+
+ <div>
+    <label for='tel'>Tel</label>
+    <input type='tel' name='tel' placeholder='your telephone here' />
+ </div>
+
+ <div>
+    <label for='email'>Email <span class='required'>*</span></label>
+    <input type='email' name='email' placeholder='e.g robotnurse@yahoo.com' required />
+ </div>
+
+ <div>
+    <label for='message'>Message <span class='required'>*</span></label>
+    <textarea name='message' required></textarea>
+ </div>
+
+ <div>
+    <button type='submit'>Send Message</button>
+ </div>
+</form>
+    <div id="mission" class='text-center'>
+      <div class="container">
+        <h2><small>Our mission</small><br /> Help you when your GP is far away and you are too lazy to go there :)</h2>
+        <div id='social-buttons'>
+          <a href="http://twitter.com" class="btn btn-sm btn-twitter">Twitter</a>
+          <a href="http://facebook.com" class="btn btn-sm btn-facebook">Facebook</a>
+          <a href="http://pinterest.com" class="btn btn-sm btn-pinterest">Pinterest</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="dist/js/bootstrap.js"></script>
+</body>
+</html>
