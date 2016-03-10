@@ -1,0 +1,113 @@
+.jumbotron { 
+  height:100%;
+  width: 100%;
+  padding-top: 80px;
+  min-height: 250px;
+  margin-bottom: 0;
+  background-image: url('http://33.media.tumblr.com/f1cdbc012d83a0574a7ee62a8964800d/tumblr_neuq2mj2P81qjxczzo1_500.gif'); 
+  background-size: contain;
+  background-size: 100% 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  padding-bottom: 10px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;   
+}
+
+#form
+{
+    min-width:300px;
+    max-width:600px;
+    margin:auto;
+    font-family: sans-serif;
+    box-shadow: 5px 5px 5px #888888;
+    padding:20px;
+    border:4px solid #27748A;
+    background: white;
+}
+
+#form h2
+{
+    color:#27748A;
+    font-size:35px;
+    margin:0;
+}
+
+#form p
+{
+    font-size:15px;
+    color:#222222;
+}
+
+#form div
+{
+    margin-top:10px;
+}
+
+#form input, textarea, button
+{
+    width:100%;
+    border:2px solid #9ECEDB;
+    padding:3px 5px;
+}
+
+#form label
+{
+    font-weight:bold;
+    font-size:12px;
+    color:#184552;
+}
+
+#form button
+{
+    background-color: #9ECEDB;
+    color: #184552;
+    cursor:pointer;
+}
+
+#form button:hover
+{
+    background-color: #CBEAF2;
+}
+
+.required
+{
+    color:#dd6666;
+}
+
+.navbar-inverse {
+  background-color: rgba(32, 35, 41,0.8);
+}
+
+.form-inline input[name='email'] {
+  width: 80%;
+}
+#social-buttons {
+  margin-top: 50px;
+}
+
+.btn-twitter {
+  background-color: #00acee;
+  border-color: #009ad5;
+  color: white;
+}
+
+.btn-facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+  color: white;
+}
+
+.btn-pinterest {
+  background-color: #b62f26;
+  border-color: #b62f26;
+  color: white;
+}
+
+#mission {
+  background-color: rgba(32, 35, 41, 0.9);
+  color: #ddd;
+  padding-bottom: 40px;
+}

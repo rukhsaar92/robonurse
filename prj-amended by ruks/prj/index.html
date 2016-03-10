@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Robot Nurse</title>
+  <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='http://fonts.googleapis.com/css?family=Vast+Shadow' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="dist/css/bootstrap.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+<!-- NAVBAR -->
+  <!-- <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"> -->
+  <div class="navbar-wrapper">
+    <div class="container">
+      <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Nurse Robo: Welcome Humans!!!</a>
+          </div>
+
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="abtus.html">About us</a></li>
+                <li><a href="http://halls.md/ideal-weight/body.htm">BMI</a></li>
+                <li><a href="contact_form.html">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- CAROUSEL EFFECT STYLE GALLERY -->
+  <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="images/fruit-and-veg.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p class="lead"> Feeling sick? Nurse Robo fusses & nurses you back to health...better than your mom :)</p>
+              <a class="btn btn-large btn-primary" href="#">Sign up today</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/1 copy.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <a class="btn btn-large btn-primary" href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/head.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/2.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div><!-- /.carousel -->
+
+  <div class='jumbotron'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-sm-4'>
+            <!-- <img id="rob" src="images/baymax.png" height=150 onclick=alert("?")> -->
+            <!-- <img src="images/baymax.png" width="1024" height="1329" border="0" usemap="#map" /> -->
+              <img src="images/baymax.png" width="150" height="195" border="0" usemap="#bay" />
+
+                <map name="bay">
+                  <area shape="rect" coords="1,2,145,189" href="humanbody.html" />
+                </map>
+
+
+          </div>
+
+        <!-- <div class='col-sm-4'>
+          <h1>Feeling sick? Nurse Robo fusses & nurses you back to health...better your mom wink emoticon :) </h1>
+        </div> -->
+        <!-- <div class="col-sm-4"> -->
+         <!--  <img src="images/1 copy.jpg" width="1181" height="1181" border="0" usemap="#map" />
+          <map name="map">
+            <area shape="rect" coords="24,244,201,355" href="#" />
+            <area shape="rect" coords="510,18,665,195" href="head.html" />
+            <area shape="rect" coords="594,236,726,351" href="#heart" />
+            <area shape="rect" coords="468,821,568,1162" href="#leg_1" />
+          </map> -->
+
+        <!-- </div>> -->        <!-- <img src="images/3.jpg"> -->
+
+        
+      </div> 
+<!--   <label for="email">Ask me</label> -->
+        <form role='form' class='form-inline'>
+        
+          <div class="form-group">
+            <input type="text" class='form-control' name="email" placeholder="Search my robot brains!" >
+          </div>
+        </form>
+
+      </div>
+    </div>
+    <div id="mission" class='text-center'>
+      <div class="container">
+        <h4><br />Your 24-hour nurse who will pamper you, listen to all the aches and comfort you during the dark days of illness...</h4>
+        <div id='social-buttons'>
+          <!-- <button class="btn btn-sm btn-twitter">Twitter</button>
+          <button class="btn btn-sm btn-facebook">Facebook</button>
+          <button class="btn btn-sm btn-pinterest">Pinterest</button> -->
+          <a href="http://twitter.com" class="btn btn-sm btn-twitter">Twitter</a>
+          <a href="http://facebook.com" class="btn btn-sm btn-facebook">Facebook</a>
+          <a href="http://pinterest.com" class="btn btn-sm btn-pinterest">Pinterest</a>
+        
+        </div>
+      </div>
+      
+
+  </div>
+<footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p> &copy; 2016 CF/G &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script type="text/javascript" src="dist/js/bootstrap.js"></script>
+  <script src="../assets/js/jquery.js"></script>
+  <script src="../assets/js/bootstrap-transition.js"></script>
+  <script src="../assets/js/bootstrap-alert.js"></script>
+  <script src="../assets/js/bootstrap-modal.js"></script>
+  <script src="../assets/js/bootstrap-dropdown.js"></script>
+  <script src="../assets/js/bootstrap-scrollspy.js"></script>
+  <script src="../assets/js/bootstrap-tab.js"></script>
+  <script src="../assets/js/bootstrap-tooltip.js"></script>
+  <script src="../assets/js/bootstrap-popover.js"></script>
+  <script src="../assets/js/bootstrap-button.js"></script>
+  <script src="../assets/js/bootstrap-collapse.js"></script>
+  <script src="../assets/js/bootstrap-carousel.js"></script>
+  <script src="../assets/js/bootstrap-typeahead.js"></script>
+  <script>
+    !function ($) {
+      $(function(){
+        // carousel demo
+        $('#myCarousel').carousel()
+      })
+    }(window.jQuery)
+  </script>
+  <script src="../assets/js/holder/holder.js"></script>
+
+</body>
+</html>
+
+
+
+

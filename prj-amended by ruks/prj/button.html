@@ -1,0 +1,91 @@
+<!-- <!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		.btn {
+			  background: #3498db;
+			  /*background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+			  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+			  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+			  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+			  background-image: linear-gradient(to bottom, #3498db, #2980b9);*/
+			 /* -webkit-border-radius: 1;
+			  -moz-border-radius: 1;*/
+			  /*border-radius: 1px;*/
+			  font-family: Arial;
+			  color: #ffffff;
+			  font-size: 1px;
+			  padding: 10px 10px 10px 10px;
+			  text-decoration: none;
+			}
+
+		.btn:hover {
+			  background: #3cb0fd;
+			  /*background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+			  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+			  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+			  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+			  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);*/
+			  text-decoration: none;
+			}
+			div.butn{
+			  background-image: url("images/baymax.png");
+			  width: 250px;
+			  height: 100px;
+			}
+			div.butn:active{
+			  background-image: url("images/pat.png");
+			   width: 250px;
+			  height: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="btn"></div>
+	</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	 <style>
+		.osxbutton {
+			text-decoration: none;
+			font-family:".LucidaGrandeUI", "Lucida Grande", "Lucida sans unicode";
+			color: black;
+			font-size: 11px;
+			padding: 1px 7px;
+			border:1px solid #9C9C9C;
+			margin: 2px 2px;
+			display: inline-block;
+			/*background-image: -webkit-linear-gradient(
+														#ffffff 0%, #F6F6F6 	30%, 
+														#F3F3F3 45%, #EDEDED 	60%, 
+														#eeeeee 100%);*/
+														background-image: url("images/baymax.png");
+			border-radius: 3px;
+			cursor: default;
+			box-shadow: 0px 0px 1px rgba(0,0,0,0.20);
+		}
+		.osxbutton:active {
+		 	border-color:#705ebb;
+			background-image:-webkit-linear-gradient(
+														#acc5e9 0%, 		#a3c0f2 18%, 
+														#61a0ed 39%,		#55a3f2 70%, 
+														#82c2f1 91.72%, 	#9AD2F2 100%); 
+			box-shadow: 0px 0px 1px rgba(0,0,0,0.65);		
+		}
+		.osxbutton.disabled {
+			color: #999!important;
+			background-image: -webkit-linear-gradient(#fbf8f8 0%, #f0f0f0 30%, #e3e3e3 45%, #d7d7d7 60%, #cbc9c9 100%);
+		}
+    </style>
+  </head>
+
+  <body>
+    	<button>I'm a button</button>
+    	<br>
+    	<a class="osxbutton disabled" href="#">I'm disabled</a>
+    	<br>
+    	<a class="osxbutton" href="#">Click me!</a>
+  </body>
+</html>
